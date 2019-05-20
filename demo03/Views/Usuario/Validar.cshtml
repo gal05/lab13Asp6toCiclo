@@ -23,7 +23,7 @@
             </tr> 
             <tr>
                 <td>Ingrese clave</td>
-                <td>@Html.TextBox("password")</td>
+                <td>@Html.TextBox("password", null, new { @class = "textBoxStandard", type = "password" })</td>
             </tr> 
             <tr>
                 <td><input type="submit"  value="Ingresar" onclick="Validar()" /></td>
